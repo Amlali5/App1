@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_REPO = 'your_dockerhub_username/app1' // استبدل باسم مستودعك
-        IMAGE_TAG = "v${env.BUILD_NUMBER}" // رقم إصدار الصورة
+        DOCKER_HUB_REPO = 'aml51/app1' 
+        IMAGE_TAG = "v${env.BUILD_NUMBER}" 
     }
 
     stages {
